@@ -2,5 +2,6 @@
 
 @interface Combinator : NSObject
 - (NSNumber*)chechChooseFromArray:(NSArray <NSNumber*>*)array;
+- (NSInteger)factorial:(NSInteger)f;
 @end
 
